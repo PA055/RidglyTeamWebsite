@@ -2,11 +2,14 @@ h1{
 	color: blue;
 }
 
+body{
+	position: relative;
+}
 .navbar{
 	padding: 20px;
 	background-color: rgb(200, 200, 200);
 	overflow: hidden;
-	position: fixed;
+	position: sticky !important;
 	top: 0;
 	width: 100%;
 }
