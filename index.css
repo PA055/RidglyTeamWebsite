@@ -5,6 +5,10 @@ h1{
 .navbar{
 	padding: 20px;
 	background-color: rgb(200, 200, 200);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav-item{
