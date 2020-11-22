@@ -6,3 +6,8 @@ h1{
 	padding: 20px;
 	background-color: rgb(200, 200, 200);
 }
+
+.nav-item{
+	padding-left: 10px;
+	padding-right: 10px;
+}
