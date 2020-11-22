@@ -24,3 +24,10 @@ div.justify-content-center{
 	justify-content: center !important;
 }
 
+.home{
+	background-color: red;
+}
+.home > h1{
+	font-size: 117px;
+}
+
