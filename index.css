@@ -1,11 +1,8 @@
-h1{
-	color: blue;
-}
 
 body{
 	position: relative;
 }
-.navbar{
+.navbarm{
 	padding: 20px;
 	background-color: rgb(200, 200, 200);
 	overflow: hidden;
@@ -21,5 +18,9 @@ body{
 
 .centered{
 	text-align: center;
+}
+
+div.justify-content-center{
+	justify-content: center !important;
 }
 
