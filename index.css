@@ -11,7 +11,7 @@ body{
 	overflow: hidden;
 	position: sticky !important;
 	top: 0;
-	width: 100%;
+	width: 100% !important;
 }
 
 .nav-item{
