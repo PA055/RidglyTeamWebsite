@@ -6,10 +6,13 @@ body{
 	padding: 20px;
 	background-color: rgb(200, 200, 200);
 	overflow: hidden;
-	position: sticky !important;
+	/* position: sticky !important; */
+	position: fixed !important;
 	top: 0;
 	width: 100% !important;
 }
+
+/* #navbar{} */
 
 .nav-item{
 	padding-left: 10px;
