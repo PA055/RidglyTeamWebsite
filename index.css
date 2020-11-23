@@ -28,10 +28,14 @@ div.justify-content-center{
 	background-color: red;
 }
 .home > h1{
-	font-size: 117px;
+	font-size: 88pt;
+	/* color: white; */
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
 }
 
 .home > h2{
-	font-size: 80px;
+	font-size: 60pt;
+	/* color: white; */
 }
 

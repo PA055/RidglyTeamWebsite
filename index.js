@@ -7,3 +7,10 @@ window.onload = function () {
         full_screens[i].style.height = screen.height + "px";
     }
 }
+
+window.addEventListener('scroll', function(){
+    if (this.scollY > screen.height) {
+        document.getElementById("navbar").style.position="fixed !important"
+        document.getElementById("navbar").style.top="0px";
+    }
+})
