@@ -9,7 +9,11 @@ window.onload = function () {
 }
 
 window.addEventListener('scroll', function(){
-    if (this.scollY > screen.height) {
+    if (this.scollY > 467) {
         document.getElementById("navbar").style.position="fixed"
     }
 })
+
+function toTop(){
+    window.scrollTo(0, 0);
+}
