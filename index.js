@@ -10,7 +10,6 @@ window.onload = function () {
 
 window.addEventListener('scroll', function(){
     if (this.scollY > screen.height) {
-        document.getElementById("navbar").style.position="fixed !important"
-        document.getElementById("navbar").style.top="0px";
+        document.getElementById("navbar").style.position="fixed"
     }
 })
