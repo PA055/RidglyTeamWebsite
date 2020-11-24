@@ -28,7 +28,7 @@ div.justify-content-center{
 }
 
 .home{
-	background-image: url("RidglyTeamWebsite\images\rms_pic.png");
+	background-image: url("RidglyTeamWebsite\\images\\rms_pic.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: 0 3000px #333333dd inset;
