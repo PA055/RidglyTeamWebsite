@@ -45,4 +45,18 @@ div.justify-content-center{
 	font-size: 60pt;
 	color: rgb(199, 199, 199);
 }
+.credits{
+	font-size: 6pt;
+}
 
+.footer{
+	color: white;
+	background-color: rgb(61, 61, 61);
+}
+
+body > div:nth-of-type(odd){
+	background-color: rgb(172, 172, 133);
+}
+body > div:nth-of-type(even){
+	background-color: rgb(122, 122, 83);
+}
