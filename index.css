@@ -28,17 +28,21 @@ div.justify-content-center{
 }
 
 .home{
-	background-color: red;
+	background-color: #333333;
+	background-image: url("C:\\Praful Programing\\Websites\\RMSrobotics\\RidglyTeamWebsite\\images\\rms_pic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 3000px #333333dd inset;
 }
 .home > h1{
 	font-size: 88pt;
-	/* color: white; */
+	color: rgb(199, 199, 199);
 	border-bottom: 1px solid white;
 	border-top: 1px solid white;
 }
 
 .home > h2{
 	font-size: 60pt;
-	/* color: white; */
+	color: rgb(199, 199, 199);
 }
 
