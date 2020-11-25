@@ -45,7 +45,7 @@ div.justify-content-center{
 	color: rgb(199, 199, 199);
 }
 .credits{
-	font-size: 6pt;
+	font-size: 8pt;
 }
 
 .footer{
@@ -54,8 +54,9 @@ div.justify-content-center{
 }
 
 body > div.content:nth-of-type(odd){
-	background-color: rgb(172, 172, 133);
+	background-color: rgb(99, 99, 99);
 }
 body > div.content:nth-of-type(even){
-	background-color: rgb(122, 122, 83);
+	background-color: rgb(85, 85, 85);
 }
+
