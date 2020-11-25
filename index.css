@@ -54,9 +54,9 @@ div.justify-content-center{
 }
 
 body > div.content:nth-of-type(odd){
-	background-color: rgb(99, 99, 99);
+	background-color: rgb(201, 201, 201);
 }
 body > div.content:nth-of-type(even){
-	background-color: rgb(85, 85, 85);
+	background-color: rgb(167, 167, 167);
 }
 
