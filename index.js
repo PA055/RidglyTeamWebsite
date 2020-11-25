@@ -8,12 +8,12 @@ $( document ).ready(function () {
     }
 })
 
-window.addEventListener('scroll', function(){
+/* window.addEventListener('scroll', function(){
     if (this.scollY > 467) {
         document.getElementById("navbar").style.position="fixed"
     }
-})
+}) */
 
-function toTop(){
+/* function toTop(){
     window.scrollTo(0, 0);
-}
+} */

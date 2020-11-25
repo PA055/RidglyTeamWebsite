@@ -60,3 +60,16 @@ body > div.content:nth-of-type(even){
 	background-color: rgb(167, 167, 167);
 }
 
+.image-box{
+	width: 250px;
+	height: 300px;
+	background-color: red;
+	border-radius: 20px;
+}
+
+.ztop{
+	z-index: 9999;
+}
+p{
+	margin-bottom: 0px !important;
+}
