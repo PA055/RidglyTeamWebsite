@@ -12,35 +12,33 @@ $( document ).ready(function () {
     })
     $( "#our-story-li" ).click(function ( event ){
         event.preventDefault();
-        targetedScroll('#story')
+        document.querySelector('#story').scrollIntoView();
         
     })
     $( "#competitions-awards-li" ).click(function ( event ){
         event.preventDefault();
-        targetedScroll('#awards')
+        document.querySelector('#awards').scrollIntoView();
         
     })
     $( "#teams-li" ).click(function ( event ){
         event.preventDefault();
-        targetedScroll('#teams')
+        document.querySelector('#teams').scrollIntoView();
         
     })
     $( "#our-program-li" ).click(function ( event ){
         event.preventDefault();
-        targetedScroll('#program')
+        document.querySelector('#program').scrollIntoView();
         
     })
     $( "#help-us-li" ).click(function ( event ){
         event.preventDefault();
-        targetedScroll('#help')
+        document.querySelector('#help').scrollIntoView();
         
     })
 })
 
 function targetedScroll(id) {
-    $('html, body').animate({
-        scrollTop: $(id).offset().top
-    }, 2000);
+    $('html, body').animate({scrollTop: $(id).offset().top});
 }
 
 /* window.addEventListener('scroll', function(){
