@@ -73,3 +73,22 @@ body > div.content:nth-of-type(even){
 p{
 	margin-bottom: 0px !important;
 }
+
+.seporator{
+	/* border: .01rem solid black; */
+	border-radius: 50rem;
+	margin: 0 auto;
+	height: .25rem;
+	position: relative;
+	/* background-color: white; */
+}
+.seporator-bottom{
+	width: 10%;
+	background-color: rgb(255, 255, 255);
+	height: .15rem;
+}
+.seporator-top{
+	width: 35%;
+	background-color: rgb(255, 255, 44);
+	bottom: .05rem;
+}
