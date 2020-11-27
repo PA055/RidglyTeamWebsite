@@ -21,6 +21,7 @@ body{
 
 .centered{
 	text-align: center;
+	
 }
 
 div.justify-content-center{
@@ -91,4 +92,14 @@ p{
 	width: 35%;
 	background-color: rgb(255, 255, 44);
 	bottom: .05rem;
+}
+
+.image{
+	position: relative;
+}
+
+#my-god-png{
+	float: right;
+    bottom: 6rem;
+    right: 1rem;
 }
