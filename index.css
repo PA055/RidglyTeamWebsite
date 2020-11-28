@@ -21,7 +21,7 @@ body{
 
 .centered{
 	text-align: center;
-	
+
 }
 
 div.justify-content-center{
@@ -100,6 +100,15 @@ p{
 
 #my-god-png{
 	float: right;
-    bottom: 6rem;
+    bottom: 3rem;
     right: 1rem;
+}
+#worlds-png{
+	float: right;
+}
+.margin-left{
+	margin-left: 1.5rem;
+}
+.margin-right{
+	margin-right: 1.5rem;
 }
