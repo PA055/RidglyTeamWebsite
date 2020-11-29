@@ -22,7 +22,7 @@ body{
 
 .centered{
 	text-align: center;
-
+	position: relative;
 }
 
 div.justify-content-center{
@@ -30,7 +30,7 @@ div.justify-content-center{
 }
 
 .home{
-	background-image: url("images\\rms_pic.png");
+	background-image: url("images\\worlds.PNG");
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: 0 3000px #333333dd inset;
@@ -105,10 +105,15 @@ p{
 }
 #worlds-png{
 	float: right;
+	left: 1rem;
 }
 .margin-left{
 	margin-left: 1.5rem;
 }
 .margin-right{
 	margin-right: 1.5rem;
+}
+
+.fade:not(.show){
+	display: none;
 }
