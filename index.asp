@@ -109,7 +109,7 @@
 		<!-- <div class="border-bottom border-top"></div> -->
 		<div class="seporator-bottom seporator"><div class="seporator-top seporator"></div></div>
 		<p class="centered">Ridgely offers both IQ and VCR teams. The IQ teams consist of 6th and 7th graders while the VCR teams are comprised of 8th and some lucky 7th graders. You will learn how to code, build, and take organized notes in engineering notebooks. Most of our teams are very successful; some make it to the states and sometimes into worlds!</p>
-		<p class="centered"><a href="teams.html" id="all-teams">All Teams</a></p>
+		<p class="centered"><a href="teams.asp" id="all-teams">All Teams</a></p>
 		<p></p>
 		<h4 class="centered">Vex IQ</h4>
 		<!-- <div class="border-bottom"></div> -->
