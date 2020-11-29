@@ -38,12 +38,10 @@ div.justify-content-center{
 .home > h1{
 	font-size: 5.7rem;
 	color: rgb(199, 199, 199);
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
 }
 
 .home > h2{
-	font-size: 5rem;
+	font-size: 3rem;
 	color: rgb(199, 199, 199);
 }
 .credits{
