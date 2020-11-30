@@ -4,51 +4,52 @@ $( document ).ready(function () {
     for (var i = 0; i < array_len; i++) {
         // console.log(full_screens[i])
         // full_screens[i].style.width = screen.width + "px";
-        // if (full_screens[i].style.height > screen.height){
+        if (full_screens[i].offsetHeight < screen.height) {
         full_screens[i].style.height = screen.height + "px";
-        // }
+        }
         // console.log(full_screens[i].css(""))
     }
     $( "#home-li" ).click(function ( event ) {
         event.preventDefault();
         window.scrollTo({top: 0, behavior: 'smooth'});
-        $("#navbar li a").css("background-color", '#fff')
-        $(this).css("background-color", "yellow")
+        $(".nav-item a").css("background-color", '#fff');
+        $(this).css({"cssText" :"background-color: yellow !important"});
     })
 
     $( "#our-story-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#story').scrollIntoView();
-        $("#navbar li a").css("background-color", '#fff')
-        $(this).css("background-color", "yellow")
+        $(".nav-item a").css("background-color", '#fff');
+        $(this).css({"cssText" :"background-color: yellow !important"});
     })
 
     $( "#competitions-awards-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#awards').scrollIntoView();
-        $("#navbar li a").css("background-color", '#fff')
-        $(this).css("background-color", "yellow")
+        $(".nav-item a").css("background-color", '#fff');
+        $(this).css({"cssText" :"background-color: yellow !important"});
     })
+    
 
     $( "#teams-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#teams').scrollIntoView();
-        $("#navbar li a").css("background-color", '#fff')
-        $(this).css("background-color", "yellow")
+        $(".nav-item a").css("background-color", '#fff');
+        $(this).css({"cssText" :"background-color: yellow !important"});
     })
 
     $( "#our-program-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#program').scrollIntoView();
-        $("#navbar li a").css("background-color", '#fff')
-        $(this).css("background-color", "yellow")
+        $(".nav-item a").css("background-color", '#fff');
+        $(this).css({"cssText" :"background-color: yellow !important"});
     })
 
     $( "#help-us-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#help').scrollIntoView();
-        $("#navbar li a").css("background-color", '#fff')
-        $(this).css("background-color", "yellow")
+        $(".nav-item a").css("background-color", '#fff');
+        $(this).css({"cssText" :"background-color: yellow !important"});
     })
 })
 

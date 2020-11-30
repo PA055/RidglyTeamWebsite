@@ -3,7 +3,7 @@ body{
 	position: relative;
 }
 .navbarm{
-	padding: 20px;
+	padding: 1rem .5rem;
 	background-color: rgb(200, 200, 200);
 	/* overflow: hidden; */
 	/* position: sticky !important; */
@@ -115,3 +115,12 @@ p{
 .fade:not(.show){
 	display: none;
 }
+.bg-white{
+	background-color: white;
+}
+@media screen and (max-width: 600px) { 
+
+	.hideable { display: none; } 
+	.home > h1 {margin-left: 10% !important;} 
+	
+	}
