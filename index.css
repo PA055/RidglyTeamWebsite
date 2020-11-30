@@ -30,6 +30,8 @@ div.justify-content-center{
 }
 
 .home{
+	background-attachment: fixed;
+	background-position: center;
 	background-image: url("images\\worlds.PNG");
 	background-repeat: no-repeat;
 	background-size: cover;
