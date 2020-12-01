@@ -146,8 +146,12 @@ p{
 	text-align:left;
 }
 
-.w3-row-padding > .w3-third{
+.row > .col-sm, .row > .col-sm-4{
 	margin: 0 8px;
 	padding: 0 !important;
 	margin-bottom: 10px !important;
+}
+
+.metal-team, .plastic-team{
+	background-color: white;
 }
