@@ -128,6 +128,10 @@ p{
 
 	.hideable { display: none; } 
 	.home > h1 {margin-left: 10% !important;} 
+	.w3-row-padding > .w3-third{
+		width: 100%;
+		margin: initial 0;
+	}
 	
 	}
 
@@ -140,4 +144,10 @@ p{
 }
 .left-align{
 	text-align:left;
+}
+
+.w3-row-padding > .w3-third{
+	margin: 0 8px;
+	padding: 0 !important;
+	margin-bottom: 10px !important;
 }
