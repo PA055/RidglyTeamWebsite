@@ -150,9 +150,8 @@ p{
 		content: "RMS Robotics";
 	}
 	.home{padding-top: 50px !important;}
-	.img-responsive{
-		width: 75%;
-	}
+	.img-responsive{width: 75%;}
+	.media-clear{clear: both;}
 	}
 
 .navbar-toggler-icon{
