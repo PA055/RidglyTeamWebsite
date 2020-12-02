@@ -5,7 +5,7 @@ body{
 }
 .navbarm{
 	padding: 1rem .5rem;
-	background-color: #f6c90e;
+	background-color: #d72323;
 	/* overflow: hidden; */
 	/* position: sticky !important; */
 	position: fixed !important;
@@ -172,5 +172,9 @@ p{
 }
 
 .metal-team, .plastic-team{
-	background-color: white;
+	background-color: #fff;
+}
+
+body i{
+	color: #000000;
 }
