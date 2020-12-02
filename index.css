@@ -1,22 +1,28 @@
 
 body{
 	position: relative;
+	color: #f5eded;
 }
 .navbarm{
 	padding: 1rem .5rem;
-	background-color: rgb(220, 220, 220);
+	background-color: #f6c90e;
 	/* overflow: hidden; */
 	/* position: sticky !important; */
 	position: fixed !important;
 	top: 0;
 	width: 100% !important;
-	padding-bottom: 0.25%;
+	padding-bottom: 0;
 }
-
-
-.nav-item{
+.navbar {
+	padding: 0;
+}
+.nav-tabs .nav-item {
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-bottom: 0px;
+}
+.nav-link{
+	color:#495057;
 }
 
 .centered{
@@ -38,16 +44,16 @@ div.justify-content-center{
 }
 .home > div > h1{
 	font-size: 5.7rem;
-	color: rgb(199, 199, 199);
+	color: #fff;
 	text-align: left;
-	margin-left: 17%;
+	line-height: 5rem;
 }
 
 .home > div > h2{
 	font-size: 3rem;
-	color: rgb(199, 199, 199);
+	color: #fff;
 	text-align: left;
-	margin-left: 17%;
+	margin-top: -10px;
 }
 .credits{
 	font-size: 8pt;
@@ -59,10 +65,10 @@ div.justify-content-center{
 }
 
 body > div.content:nth-of-type(odd){
-	background-color: rgb(201, 201, 201);
+	background-color:#303841;
 }
 body > div.content:nth-of-type(even){
-	background-color: rgb(167, 167, 167);
+	background-color: #3a4750;
 }
 
 .image-box{
@@ -132,7 +138,20 @@ p{
 		width: 100%;
 		margin: initial 0;
 	}
-	
+	.media-content-rms-robotics{
+		visibility: hidden;
+		position: relative;
+	}
+	.media-content-rms-robotics:after{
+		visibility: visible;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "RMS Robotics";
+	}
+	.home{
+		padding-top: 50px !important;
+	}
 	}
 
 .navbar-toggler-icon{

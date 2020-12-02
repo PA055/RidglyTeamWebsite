@@ -13,21 +13,21 @@ $( document ).ready(function () {
         event.preventDefault();
         window.scrollTo({top: 0, behavior: 'smooth'});
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: yellow !important"});
+        $(this).css({"cssText" :"background-color: #d72323 !important"});
     })
 
     $( "#our-story-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#story').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: yellow !important"});
+        $(this).css({"cssText" :"background-color: #d72323 !important"});
     })
 
     $( "#competitions-awards-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#awards').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: yellow !important"});
+        $(this).css({"cssText" :"background-color: #d72323 !important"});
     })
     
 
@@ -35,21 +35,21 @@ $( document ).ready(function () {
         event.preventDefault();
         document.querySelector('#teams').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: yellow !important"});
+        $(this).css({"cssText" :"background-color: #d72323 !important"});
     })
 
     $( "#our-program-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#program').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: yellow !important"});
+        $(this).css({"cssText" :"background-color: #d72323 !important"});
     })
 
     $( "#help-us-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#help').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: yellow !important"});
+        $(this).css({"cssText" :"background-color: #d72323 !important"});
     })
 })
 
