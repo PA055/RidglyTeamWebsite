@@ -106,7 +106,8 @@ p{
 
 .image{
 	position: relative;
-	border:6px solid white;
+	border:6px solid #f5eded;
+	border-radius: .5rem;
 }
 
 #my-god-png{
@@ -133,7 +134,8 @@ p{
 @media screen and (max-width: 600px) { 
 
 	.hideable { display: none; } 
-	.home > h1 {margin-left: 10% !important;} 
+	.home > div > h1 {margin-left: 10% !important; font-size: 4.5rem;}
+	.home > div > h2 {margin-left: 10%;font-size: 2.7rem;}
 	.w3-row-padding > .w3-third{
 		width: 100%;
 		margin: initial 0;
@@ -150,8 +152,23 @@ p{
 		content: "RMS Robotics";
 	}
 	.home{padding-top: 50px !important;}
-	.img-responsive{width: 75%;}
+	.img-responsive{width: 75% !important;}
 	.media-clear{clear: both;}
+	.logo{
+		display: block;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: unset !important;
+	}
+	.media-center{
+		display: block;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: unset !important;
+	}
+	.content{
+		padding-top: 50px !important;
+	}
 	}
 
 .navbar-toggler-icon{
@@ -160,6 +177,7 @@ p{
 
 .content{
 	padding: 2em;
+	padding-top: 250px;
 }
 .left-align{
 	text-align:left;
@@ -173,6 +191,7 @@ p{
 
 .metal-team, .plastic-team{
 	background-color: #fff;
+	border-radius: .5rem;
 }
 
 body i{
@@ -181,4 +200,22 @@ body i{
 
 .img-responsive{
 
+}
+
+p{
+	text-align: justify;
+}
+.colapse-button{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.plastic-team img, .metal-team img {
+	margin: 0 2.5%;
+	border-radius: .5rem;
+}
+
+.nav-link.active{
+	border-bottom: ;
 }
