@@ -6,8 +6,6 @@ body{
 .navbarm{
 	padding: 1rem .5rem;
 	background-color: #d72323;
-	/* overflow: hidden; */
-	/* position: sticky !important; */
 	position: fixed !important;
 	top: 0;
 	width: 100% !important;
@@ -40,7 +38,7 @@ div.justify-content-center{
 	background-image: url("images\\worlds.PNG");
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow: 0 3000px #333333dd inset;
+	box-shadow: 0 3000px #333333cc  inset;
 }
 .home > div > h1{
 	font-size: 5.7rem;
@@ -64,10 +62,10 @@ div.justify-content-center{
 	background-color: rgb(61, 61, 61);
 }
 
-body > div.content:nth-of-type(odd){
+body > div.content:nth-of-type(even){
 	background-color:#303841;
 }
-body > div.content:nth-of-type(even){
+body > div.content:nth-of-type(odd){
 	background-color: #3a4750;
 }
 
@@ -131,45 +129,6 @@ p{
 .bg-white{
 	background-color: white;
 }
-@media screen and (max-width: 600px) { 
-
-	.hideable { display: none; } 
-	.home > div > h1 {margin-left: 10% !important; font-size: 4.5rem;}
-	.home > div > h2 {margin-left: 10%;font-size: 2.7rem;}
-	.w3-row-padding > .w3-third{
-		width: 100%;
-		margin: initial 0;
-	}
-	.media-content-rms-robotics{
-		visibility: hidden;
-		position: relative;
-	}
-	.media-content-rms-robotics:after{
-		visibility: visible;
-		position: absolute;
-		top: 0;
-		left: 0;
-		content: "RMS Robotics";
-	}
-	.home{padding-top: 50px !important;}
-	.img-responsive{width: 75% !important;}
-	.media-clear{clear: both;}
-	.logo{
-		display: block;
-		margin-left: auto !important;
-		margin-right: auto !important;
-		float: unset !important;
-	}
-	.media-center{
-		display: block;
-		margin-left: auto !important;
-		margin-right: auto !important;
-		float: unset !important;
-	}
-	.content{
-		padding-top: 50px !important;
-	}
-	}
 
 .navbar-toggler-icon{
 	background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -177,7 +136,7 @@ p{
 
 .content{
 	padding: 2em;
-	padding-top: 250px;
+	padding-top: 50px;
 }
 .left-align{
 	text-align:left;
@@ -219,3 +178,86 @@ p{
 .nav-link.active{
 	border-bottom: ;
 }
+
+.carosel-img{
+	height: 20rem;
+}
+.help-flex-cont{
+	display: flex;
+	flex-direction: row;
+}
+
+.left-side, .right-side{
+	flex: 1 1;
+	border: 1px solid black;
+	background-color: #3a4750;
+}
+
+.left-side{
+	order: 0;
+}
+.right-side{
+	order: 1;
+}
+
+.colapse-ind{
+	color: black;
+	float: right;
+	content: "";
+}
+
+
+[data-toggle="collapse"].collapsed .colapse-ind:before{
+    content: "\f068";
+}
+
+[data-toggle="collapse"] .colapse-ind:before{
+    content: "\f067";
+}
+
+
+
+
+@media screen and (max-width: 600px) { 
+
+	.hideable { display: none; } 
+	.home > div > h1 {margin-left: 10% !important; font-size: 4.5rem;}
+	.home > div > h2 {margin-left: 10%;font-size: 2.7rem;}
+	.w3-row-padding > .w3-third{
+		width: 100%;
+		margin: initial 0;
+	}
+	.media-content-rms-robotics{
+		visibility: hidden;
+		position: relative;
+	}
+	.media-content-rms-robotics:after{
+		visibility: visible;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "RMS Robotics";
+	}
+	.home{padding-top: 50px !important;}
+	.img-responsive{width: 75% !important;}
+	.media-clear{clear: both;}
+	.logo{
+		display: block;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: unset !important;
+	}
+	.media-center{
+		display: block;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: unset !important;
+	}
+	.content{
+		padding-top: 60px !important;
+	}
+	.help-flex-cont{
+		display: flex;
+		flex-direction: column;
+	}
+	}

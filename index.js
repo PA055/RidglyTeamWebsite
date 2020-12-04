@@ -4,8 +4,8 @@ $( document ).ready(function () {
     for (var i = 0; i < array_len; i++) {
         // console.log(full_screens[i])
         // full_screens[i].style.width = screen.width + "px";
-        if (full_screens[i].offsetHeight < screen.height) {
-        full_screens[i].style.height = screen.height + "px";
+        if (full_screens[i].offsetHeight < window.innerHeight) {
+        full_screens[i].style.height = window.innerHeight + "px";
         }
         // console.log(full_screens[i].css(""))
     }
@@ -19,6 +19,7 @@ $( document ).ready(function () {
     $( "#our-story-li" ).click(function ( event ){
         event.preventDefault();
         document.querySelector('#story').scrollIntoView();
+        $('html, body').scrollTop -= $('.navbarm').offsetHeight;
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({"cssText" :"background-color: #f6c90e !important"});
     })
@@ -57,15 +58,6 @@ function targetedScroll(id) {
     $('html, body').animate({scrollTop: $(id).offset().top});
 }
 
-/* window.addEventListener('scroll', function(){
-    if (this.scollY > 467) {
-        document.getElementById("navbar").style.position="fixed"
-    }
-}) */
-
-/* function toTop(){
-    window.scrollTo(0, 0);
-} */
 
 var myIndex = 0;
 carousel();
