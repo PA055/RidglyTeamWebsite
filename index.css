@@ -224,8 +224,8 @@ p{
 @media screen and (max-width: 600px) { 
 
 	.hideable { display: none; } 
-	.home > div > h1 {margin-left: 10% !important; font-size: 4.5rem;}
-	.home > div > h2 {margin-left: 10%;font-size: 2.7rem;}
+	.home > div > h1 {margin-left: 10% !important; font-size: 4rem;}
+	.home > div > h2 {margin-left: 10%;font-size: 2.2rem;}
 	.w3-row-padding > .w3-third{
 		width: 100%;
 		margin: initial 0;
@@ -266,4 +266,6 @@ p{
 	.colapse-ind{
 		float: right;
 	}
+	#worlds-png{width: 95% !important;}
+	.carosel-img{height: 15rem;}
 	}
