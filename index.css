@@ -152,6 +152,10 @@ p{
 	background-color: #fff;
 	border-radius: .5rem;
 }
+.metal-event, .plastic-event{
+	background-color: #fff;
+	border-radius: .5rem;
+}
 
 body i{
 	color: #000000;
@@ -202,7 +206,6 @@ p{
 
 .colapse-ind{
 	color: black;
-	float: right;
 	content: "";
 }
 
@@ -259,5 +262,8 @@ p{
 	.help-flex-cont{
 		display: flex;
 		flex-direction: column;
+	}
+	.colapse-ind{
+		float: right;
 	}
 	}
