@@ -180,7 +180,7 @@ p{
 }
 
 .nav-link.active{
-	border-bottom: ;
+	border-bottom: 0px solid white;
 }
 
 .carosel-img{
