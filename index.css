@@ -211,21 +211,22 @@ p{
 
 
 [data-toggle="collapse"].collapsed .colapse-ind:before{
-    content: "\f068";
+    content: "\f067";
 }
 
 [data-toggle="collapse"] .colapse-ind:before{
-    content: "\f067";
+    content: "\f068";
 }
 
 
 
 
 @media screen and (max-width: 600px) { 
-
+	p{text-align: left;}
 	.hideable { display: none; } 
-	.home > div > h1 {margin-left: 10% !important; font-size: 4rem;}
-	.home > div > h2 {margin-left: 10%;font-size: 2.2rem;}
+	.home > div > h1 {margin-left: 0 !important; font-size: 4rem; text-align: center;}
+	.home > div > h2 {margin-left: 0 !important;font-size: 2.2rem;text-align: center;}
+	.home > div{width: 100% !important;}
 	.w3-row-padding > .w3-third{
 		width: 100%;
 		margin: initial 0;
@@ -254,7 +255,7 @@ p{
 		display: block;
 		margin-left: auto !important;
 		margin-right: auto !important;
-		float: unset !important;
+		float: none !important;
 	}
 	.content{
 		padding-top: 60px !important;
@@ -268,4 +269,13 @@ p{
 	}
 	#worlds-png{width: 95% !important;}
 	.carosel-img{height: 15rem;}
+	.media-width{
+		left: 0 !important;
+		right: 0 !important;
+		bottom: 0 !important;
+		top: 0 !important;
+		width: 100% !important;
+		margin: 0 !important;
+		margin-top: 1rem !important;
+	}
 	}
