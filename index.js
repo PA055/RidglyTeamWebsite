@@ -1,61 +1,61 @@
-$( document ).ready(function () {
+$(document).ready(function () {
     var full_screens = document.getElementsByClassName('full-page');
     var array_len = full_screens.length;
     for (var i = 0; i < array_len; i++) {
         // console.log(full_screens[i])
         // full_screens[i].style.width = screen.width + "px";
         if (full_screens[i].offsetHeight < window.innerHeight) {
-        full_screens[i].style.height = window.innerHeight + "px";
+            full_screens[i].style.height = window.innerHeight + "px";
         }
         // console.log(full_screens[i].css(""))
     }
-    $( "#home-li" ).click(function ( event ) {
+    $("#home-li").click(function (event) {
         event.preventDefault();
-        window.scrollTo({top: 0, behavior: 'smooth'});
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: #f6c90e !important"});
+        $(this).css({ "cssText": "background-color: #f6c90e !important" });
     })
 
-    $( "#our-story-li" ).click(function ( event ){
+    $("#our-story-li").click(function (event) {
         event.preventDefault();
         document.querySelector('#story').scrollIntoView();
         $('html, body').scrollTop -= $('.navbarm').offsetHeight;
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: #f6c90e !important"});
+        $(this).css({ "cssText": "background-color: #f6c90e !important" });
     })
 
-    $( "#competitions-awards-li" ).click(function ( event ){
+    $("#competitions-awards-li").click(function (event) {
         event.preventDefault();
         document.querySelector('#awards').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: #f6c90e !important"});
+        $(this).css({ "cssText": "background-color: #f6c90e !important" });
     })
-    
 
-    $( "#teams-li" ).click(function ( event ){
+
+    $("#teams-li").click(function (event) {
         event.preventDefault();
         document.querySelector('#teams').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: #f6c90e !important"});
+        $(this).css({ "cssText": "background-color: #f6c90e !important" });
     })
 
-    $( "#our-program-li" ).click(function ( event ){
+    $("#our-program-li").click(function (event) {
         event.preventDefault();
         document.querySelector('#program').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: #f6c90e !important"});
+        $(this).css({ "cssText": "background-color: #f6c90e !important" });
     })
 
-    $( "#help-us-li" ).click(function ( event ){
+    $("#help-us-li").click(function (event) {
         event.preventDefault();
         document.querySelector('#help').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
-        $(this).css({"cssText" :"background-color: #f6c90e !important"});
+        $(this).css({ "cssText": "background-color: #f6c90e !important" });
     })
 })
 
 function targetedScroll(id) {
-    $('html, body').animate({scrollTop: $(id).offset().top});
+    $('html, body').animate({ scrollTop: $(id).offset().top });
 }
 
 
@@ -63,14 +63,14 @@ var myIndex = 0;
 carousel();
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slideing-952G");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";    
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";
+    var i;
+    var x = document.getElementsByClassName("slideing-952G");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) { myIndex = 1 }
+    x[myIndex - 1].style.display = "block";
 
-  setTimeout(carousel, 4000);    
+    setTimeout(carousel, 4000);
 }
