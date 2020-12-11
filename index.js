@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     var full_screens = document.getElementsByClassName('full-page');
     var array_len = full_screens.length;
     for (var i = 0; i < array_len; i++) {
@@ -9,48 +9,54 @@ $(document).ready(function () {
         }
         // console.log(full_screens[i].css(""))
     }
-    $("#home-li").click(function (event) {
+    $("#home-li").click(function(event) {
         event.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({ "cssText": "background-color: #f6c90e !important" });
+        $("#navbarSupportedContent").removeClass("show");
     })
 
-    $("#our-story-li").click(function (event) {
+    $("#our-story-li").click(function(event) {
         event.preventDefault();
         document.querySelector('#story').scrollIntoView();
         $('html, body').scrollTop -= $('.navbarm').offsetHeight;
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({ "cssText": "background-color: #f6c90e !important" });
+        $("#navbarSupportedContent").removeClass("show");
     })
 
-    $("#competitions-awards-li").click(function (event) {
+    $("#competitions-awards-li").click(function(event) {
         event.preventDefault();
         document.querySelector('#awards').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({ "cssText": "background-color: #f6c90e !important" });
+        $("#navbarSupportedContent").removeClass("show");
     })
 
 
-    $("#teams-li").click(function (event) {
+    $("#teams-li").click(function(event) {
         event.preventDefault();
         document.querySelector('#teams').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({ "cssText": "background-color: #f6c90e !important" });
+        $("#navbarSupportedContent").removeClass("show");
     })
 
-    $("#our-program-li").click(function (event) {
+    $("#our-program-li").click(function(event) {
         event.preventDefault();
         document.querySelector('#program').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({ "cssText": "background-color: #f6c90e !important" });
+        $("#navbarSupportedContent").removeClass("show");
     })
 
-    $("#help-us-li").click(function (event) {
+    $("#help-us-li").click(function(event) {
         event.preventDefault();
         document.querySelector('#help').scrollIntoView();
         $(".nav-item a").css("background-color", '#fff');
         $(this).css({ "cssText": "background-color: #f6c90e !important" });
+        $("#navbarSupportedContent").removeClass("show");
     })
 })
 
